@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "llm-zoomcamp-homework"
+version = "0.1.0"
+description = ""
+authors = ["Marc Soler <93591805+marc-soler@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.66.4"
+notebook = "7.1.2"
+openai = "^1.35.0"
+elasticsearch = "^8.14.0"
+scikit-learn = "^1.5.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
