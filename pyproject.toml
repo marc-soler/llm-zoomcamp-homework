@@ -16,6 +16,7 @@ pandas = "^2.2.2"
 python-dotenv = "^1.0.1"
 tiktoken = "^0.7.0"
 streamlit = "^1.36.0"
+sentence-transformers = "2.7.0"
 
 
 [build-system]
