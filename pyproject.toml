@@ -6,7 +6,7 @@ authors = ["Marc Soler <93591805+marc-soler@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.13"
 tqdm = "^4.66.4"
 notebook = "7.1.2"
 openai = "^1.35.0"
@@ -17,6 +17,9 @@ python-dotenv = "^1.0.1"
 tiktoken = "^0.7.0"
 streamlit = "^1.36.0"
 sentence-transformers = "2.7.0"
+dlt = "^0.5.1"
+lancedb = "^0.10.1"
+ollama = "^0.2.1"
 
 
 [build-system]
