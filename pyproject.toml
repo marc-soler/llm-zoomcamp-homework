@@ -20,6 +20,12 @@ sentence-transformers = "2.7.0"
 dlt = "^0.5.1"
 lancedb = "^0.10.1"
 ollama = "^0.2.1"
+seaborn = "^0.13.2"
+plotly = "^5.23.0"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+six = "^1.16.0"
+rouge = "^1.0.1"
 
 
 [build-system]
